@@ -80,10 +80,6 @@ let currentTrack = 0
 
 // functional helpers
 
-let both = (f, g) => (...args) => f(...args) && g(...args)
-
-let find = predicate => array => array.find(predicate)
-
 let firstIndex = predicate => array => {
   for (let i = 0; i < array.length; i++) {
     if (predicate(array[i])) {
