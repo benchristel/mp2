@@ -243,6 +243,17 @@ function onYouTubeIframeAPIReady() {
         console.log('onReady')
         playerIsReady = true
         playerState = YT.PlayerState.UNSTARTED
+
+        window.addEventListener('keydown', function(event) {
+          if (event.keyCode === 32) {
+            if (playerState === YT.PlayerState.PLAYING) {
+              player.pauseVideo()
+            } else if (playerState === YT.PlayerState.PAUSED) {
+              player.playVideo()
+            }
+          }
+        })
+
         handleSomethingHappening()
       },
       'onStateChange': event => {
