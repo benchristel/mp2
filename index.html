@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Music Player</title>
 
 <style type="text/css">
 
@@ -75,6 +76,7 @@ function nextTrack() {
 function play(track) {
   if (track) {
     Player.load(track.youtubeId)
+    document.getElementsByTagName('title')[0].innerText = track.name
     Player.play()
   }
 }
