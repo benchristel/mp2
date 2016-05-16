@@ -76,17 +76,6 @@ tracks = shuffle(tracks)
 
 let currentTrack = 0
 
-// functional helpers
-
-let firstIndex = predicate => array => {
-  for (let i = 0; i < array.length; i++) {
-    if (predicate(array[i])) {
-      return i
-    }
-  }
-  return null
-}
-
 // the actual code
 
 let isSelected = track => track.grouping.selected
