@@ -21,7 +21,7 @@
     player = new YT.Player('player', {
       height: '200',
       width: '200',
-      videoId: 'M7lc1UVf-VE', // todo null out
+      videoId: null,
       events: {
         'onReady': () => {
           playerState = YT.PlayerState.UNSTARTED
@@ -60,7 +60,7 @@
   Player.play = function() {
     player.playVideo()
   }
-  
+
   Player.load = function(youtubeId) {
     let startAt = 0
     player.loadVideoById(youtubeId, startAt, 'small')
