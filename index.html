@@ -11,8 +11,8 @@
 }
 
 body {
-	font-size: 14px;
-	font-family: Verdana;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
 	color: #ddd;
 	background-color: #333;
 }
@@ -48,75 +48,40 @@ player-container {
   top: -999px;
 }
 
+#top-bar {
+  background-color: #111;
+  padding: 10px;
+  padding-left: 22px;
+}
+
 </style>
 
 <script type="text/javascript" src="songs.js"></script>
 <script type="text/javascript" src="player.js"></script>
+<script type="text/javascript" src="random.js"></script>
+<script type="text/javascript" src="grouping.js"></script>
 <script type="text/javascript">
 
-// setup of models
+let groupings = GROUPINGS.map(groupingSpec => Grouping(groupingSpec))
 
-let tracks = [], groupings = []
+function nextTrack() {
+  let randomSelectedGrouping = chooseRandomly(groupings.filter(g => g.selected))
 
-for (let grouping of GROUPINGS) {
-  for (let track of grouping.tracks) {
-    track.grouping = grouping
-    tracks.push(track)
-  }
-  groupings.push(grouping)
+  return randomSelectedGrouping 
+    ? randomSelectedGrouping.dequeue()
+    : null
 }
 
-function shuffle(array) {
-  return array.sort(() => Math.random() > 0.5)
-}
-
-tracks = shuffle(tracks)
-
-// mutable state
-
-let currentTrack = 0
-
-// the actual code
-
-let isSelected = track => track.grouping.selected
-
-let afterCurrent = track =>
-  currentTrack < track.position
-
-let nextTrack = afterIndex => {
-  let found = null;
-  for (var i = afterIndex + 1; i < tracks.length; i++) {
-    if (isSelected(tracks[i])) {
-      found = i
-      break
-    }
-  }
-
-  if (found !== null) {
-    return found
-  }
-
-  tracks = shuffle(tracks)
-
-  for (var i = 0; i < tracks.length; i++) {
-    if (isSelected(tracks[i])) {
-      return i
-    }
-  }
-}
-
-function play(trackIndex) {
-  if (trackIndex !== null) {
-    currentTrack = trackIndex
-
-    Player.load(tracks[trackIndex].youtubeId)
+function play(track) {
+  if (track) {
+    Player.load(track.youtubeId)
     Player.play()
   }
 }
 
 function handleSomethingHappening() {
   if (Player.nothingIsPlaying()) {
-    play(nextTrack(currentTrack))
+    play(nextTrack())
   }
 }
 
@@ -131,12 +96,22 @@ Player.onUpdate(handleSomethingHappening)
   <div id="player"></div>
 </player-container>
 
+<div id="top-bar">
+  <input id="shuffle-checkbox" type="checkbox" />
+  <label>Shuffle</label>
+</div>
 
 <grid>
 </grid>
 
 <script>
 // UI setup
+
+document.getElementById('shuffle-checkbox').addEventListener('change', function(event) {
+  for (let grouping of groupings) {
+    grouping.setShuffle(event.target.checked)
+  }
+})
 
 let grid = document.getElementsByTagName('grid')[0]
 
