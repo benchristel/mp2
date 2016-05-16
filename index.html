@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 14px;
+	font-family: Verdana;
+	color: #ddd;
+	background-color: #333;
+}
+
+tile {
+	display: block;
+	border: 1px solid #888;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+
+tile.selected {
+  border: 1px solid #fa2;
+  box-shadow: 0 0 20px #fa2;
+}
+
+grid-cell {
+	float: left;
+	padding: 12px;
+}
+
+grid {
+	display: block;
+	padding: 10px;
+	width: 100%;
+}
+
+player-container {
+  display: block;
+  position: absolute;
+  top: -999px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+const GROUPINGS =
+[ {
+    name: 'Nightwish',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/2/22/OnceNightwishCover.jpg',
+    tracks: []
+  }
+, {
+    name: 'Jethro Tull',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/d/d8/JethroTull-albums-standup.jpg',
+    tracks:
+    [ {
+        name: 'A New Day Yesterday',
+        youtubeId: 'R9JF7lUMH1U'
+      }
+    , {
+        name: 'Jeffery Goes to Leicester Square',
+        youtubeId: 'wlNwOJkP5P8'
+      }
+    ]
+  }
+, {
+    name: 'Heroes IV',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg',
+    tracks: []
+  }
+, {
+    name: 'Five Second Films',
+    tracks: 
+    [ {
+        name: 'Late for Work',
+        youtubeId: 'kfchvCyHmsc'
+      }
+    , {
+        name: 'missing',
+        youtubeId: 'UiyDmqO59QE'
+      }
+    , {
+        name: 'the final battle',
+        youtubeId: 'PkVbF9DmtSw'
+      }
+    , {
+        name: 'mix up',
+        youtubeId: '14077PJvg4E'
+      }
+    ]
+  }
+
+]
+
+// setup of models
+
+let tracks = [], groupings = []
+
+for (let grouping of GROUPINGS) {
+  for (let track of grouping.tracks) {
+    track.grouping = grouping
+    tracks.push(track)
+  }
+  groupings.push(grouping)
+}
+
+function shuffle(array) {
+  return array.sort(() => Math.random() > 0.5)
+}
+
+tracks = shuffle(tracks)
+
+// mutable state
+
+let currentTrack = 0
+  , playerState = null
+  , playerIsReady = false
+  , player = null
+
+// functional helpers
+
+let both = (f, g) => (...args) => f(...args) && g(...args)
+
+let find = predicate => array => array.find(predicate)
+
+let firstIndex = predicate => array => {
+  for (let i = 0; i < array.length; i++) {
+    if (predicate(array[i])) {
+      return i
+    }
+  }
+  return null
+}
+
+let skip = number => array => array.slice(number + 1)
+
+// YT player stuff
+{
+  let tag = document.createElement('script');
+
+  tag.src = "https://www.youtube.com/iframe_api";
+  let firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+}
+
+function onYouTubeIframeAPIReady() {
+  console.log('onYouTubeIframeAPIReady')
+  player = new YT.Player('player', {
+    height: '200',
+    width: '200',
+    videoId: 'M7lc1UVf-VE',
+    events: {
+      'onReady': () => {
+        console.log('onReady')
+        playerIsReady = true
+        playerState = YT.PlayerState.UNSTARTED
+        handleSomethingHappening()
+      },
+      'onStateChange': event => {
+        console.log('onStateChange', event)
+        if (playerState !== event.data) {
+          playerState = event.data
+          if (playerState === YT.PlayerState.ENDED) {
+            handleSomethingHappening()
+          }
+        }
+      }
+    }
+  })
+  
+  handleSomethingHappening()
+}
+
+// the actual code
+
+let isSelected = track => track.grouping.selected
+
+let afterCurrent = track =>
+  currentTrack < track.position
+
+let nextTrack = afterIndex => {
+  let found = null;
+  for (var i = afterIndex + 1; i < tracks.length; i++) {
+    if (isSelected(tracks[i])) {
+      found = i
+      break
+    }
+  }
+
+  if (found !== null) {
+    return found
+  }
+
+  tracks = shuffle(tracks)
+
+  for (var i = 0; i < tracks.length; i++) {
+    if (isSelected(tracks[i])) {
+      return i
+    }
+  }
+}
+
+function play(trackIndex) {
+  if (trackIndex !== null) {
+    currentTrack = trackIndex
+
+    player.loadVideoById(tracks[trackIndex].youtubeId, 0 /*start seconds*/, 'small')
+    player.playVideo()
+  }
+}
+
+function nothingIsPlaying() {
+  console.log('nothingIsPlaying', playerIsReady, playerState, YT.PlayerState.UNSTARTED, YT.PlayerState.ENDED)
+  return playerIsReady && (playerState === YT.PlayerState.UNSTARTED || playerState === YT.PlayerState.ENDED)
+}
+
+function handleSomethingHappening() {
+  console.log('something happened')
+  if (nothingIsPlaying()) {
+    console.log("playing next track")
+    play(nextTrack(currentTrack))
+  }
+}
+
+</script>
+
+</head>
+<body>
+
+<player-container>
+  <div id="player"></div>
+</player-container>
+
+
+<grid>
+</grid>
+
+<script>
+// UI setup
+
+let grid = document.getElementsByTagName('grid')[0]
+
+function createTile(imageUrl) {
+  let tile = document.createElement('tile')
+  tile.style = "background-image:url('" + imageUrl + "')"
+
+  let gridCell = document.createElement('grid-cell')
+  gridCell.appendChild(tile)
+  grid.appendChild(gridCell)
+
+  return tile
+}
+
+for (let grouping of groupings) {
+  let tile = grouping.tile = createTile(grouping.imageUrl)
+  tile.addEventListener('click', function() {
+    if (grouping.selected) {
+      tile.classList.remove('selected')
+      grouping.selected = false
+    } else {
+      tile.classList.add('selected')
+      grouping.selected = true
+    }
+    handleSomethingHappening()
+  })
+}
+</script>
+
+</body>
+</html>
