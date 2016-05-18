@@ -4,7 +4,7 @@ const GROUPINGS =
     name: 'Nightwish',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/2/22/OnceNightwishCover.jpg',
     tracks: 
-    [ { youtubeId: 'U7kUHZ0ZS-s', name: 'Dark Chest Of Wonders' }
+    [ { youtubeId: 'rBETIUlgZdY', name: 'Dark Chest Of Wonders' }
     , { youtubeId: '-xPIdta_uXI', name: 'Wish I Had An Angel' }
     , { youtubeId: 'kIBdpFJyFkc', name: 'Nemo' }
     , { youtubeId: 't24E8B5Ik4c', name: 'Planet Hell' }
@@ -125,5 +125,31 @@ const GROUPINGS =
     , { youtubeId: 'Iu6fo0ojwp0', name: 'The Killing Lights' }
     , { youtubeId: 'XCK-St51AzA', name: 'Endlessly, She Said' }
     ]
+  }
+, {
+    name: 'Manu Chao - Clandestino',
+    imageUrl: 'http://ecx.images-amazon.com/images/I/51PHN96NDCL.jpg',
+    tracks: 
+    [ { youtubeId: 'Qew9cYR3t0g', name: 'Desaparecido' }
+    , { youtubeId: 'a_UqAMQT_LE', name: 'Bongo Bong' }
+    , { youtubeId: 'Qn6IBCYVQAY', name: 'Je Ne T\'aime Plus' }
+    , { youtubeId: 'PCZuYK3Rjig', name: 'Mentira' }
+    , { youtubeId: 'ydtfbuxd7Mw', name: 'Lágrimas De Oro' }
+    , { youtubeId: 'fQrPY5aJIXI', name: 'Mama Call' }
+    , { youtubeId: 'r6bxSrcnQlY', name: 'Luna Y Sol' }
+    , { youtubeId: 'ulwj8VHnR6s', name: 'Por El Suelo' }
+    , { youtubeId: 'JVmjLGxFJAw', name: 'Welcome To Tijuana' }
+    , { youtubeId: 'a5XiqblCtJg', name: 'Día Luna...Día Pena' }
+    , { youtubeId: 'E-nSiMSEIyk', name: 'Malegría' }
+    , { youtubeId: 'wGDASSLuAUc', name: 'La Vie A 2' }
+    , { youtubeId: 'Xfc7sBSn2Z0', name: 'Minha Galera' }
+    , { youtubeId: 'qFaEJPAAQuI', name: 'La Despedida' }
+    , { youtubeId: 'tQ2nl0_boh4', name: 'El Viento' }
+    ]
+  }
+, {
+    name: 'Huun Huur Tu Live at Fantasy Studios',
+    imageUrl: 'http://i.ytimg.com/vi/i0djHJBAP3U/sddefault.jpg',
+    tracks: [ { youtubeId: 'i0djHJBAP3U', name: 'Huun Huur Tu Live at Fantasy Studios' } ]
   }
 ]
