@@ -21,16 +21,16 @@ body {
 tile {
 	display: block;
 	border: 1px solid #888;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.8);
 	width: 200px;
 	height: 200px;
 	background-size: cover;
   background-position-x: center;
+  transition: 0.5s;
 }
 
 tile.selected {
-  border: 1px solid #fa2;
-  box-shadow: 0 0 20px #fa2;
+  transform: perspective(400px) rotateY(20deg);
 }
 
 grid-cell {
@@ -58,10 +58,10 @@ player-container {
 
 </style>
 
-<script type="text/javascript" src="songs.js"></script>
-<script type="text/javascript" src="player.js"></script>
-<script type="text/javascript" src="random.js"></script>
-<script type="text/javascript" src="grouping.js"></script>
+<script type="text/javascript" src="res/songs.js"></script>
+<script type="text/javascript" src="res/player.js"></script>
+<script type="text/javascript" src="res/random.js"></script>
+<script type="text/javascript" src="res/grouping.js"></script>
 <script type="text/javascript">
 
 let groupings = GROUPINGS.map(groupingSpec => Grouping(groupingSpec))
