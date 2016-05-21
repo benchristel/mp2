@@ -119,6 +119,28 @@ const GROUPINGS =
     ]
   }
 , {
+    name: 'Sting - Songs From The Labyrinth',
+    imageUrl: 'http://ecx.images-amazon.com/images/I/51FBXEYFD6L._SX300_.jpg',
+    tracks:
+    [ { youtubeId: 'N_p9N2hJyCI', name: 'Walsingham' }
+    , { youtubeId: 'GzOKz_3ukMI', name: 'Can She Excuse My Wrongs' }
+    , { youtubeId: 'JSKaedcAF8E', name: 'Flow My Tears' }
+    , { youtubeId: '6yZ6vcdg3PY', name: 'Have You Seen The Bright Lily Grow' }
+    , { youtubeId: 'K7QOBtdnaxU', name: 'The Most High And Mighty Christianus The Fourth, King of Denmark, His Galliard' }
+    , { youtubeId: 'u-XpVhP7UGU', name: 'The Lowest Trees Have Tops' }
+    , { youtubeId: 'gaCMKLZGvYs', name: 'Fine Knacks For Ladies' }
+    , { youtubeId: 'zpgbyLRLpa0', name: 'Fantasy' }
+    , { youtubeId: 'Q9rnLJUlmhk', name: 'Come Heavy Sleep' }
+    , { youtubeId: 'uG_AM6avyLM', name: 'Forlorn Hope Fancy' }
+    , { youtubeId: 'IX686DStiGo', name: 'Come Again' }
+    , { youtubeId: 'h_bPG6da1bg', name: 'Wilt Thou Unkind Thus Reave Me' }
+    , { youtubeId: 'OPflzZXbp90', name: 'Weep You No More Sad Fountains' }
+    , { youtubeId: 'KQ5DJ4BCiCg', name: 'My Lord Willoughby\'s Welcome Home' }
+    , { youtubeId: 'Ngb7p8qefFE', name: 'Clear Or Cloudy' }
+    , { youtubeId: 'yQnZbFdVGdw', name: 'In Darkness Let Me Dwell' }
+    ]
+}
+, {
     name: 'Of The Wand And The Moon - :Nighttime Nightrhymes: (Full Album)',
     imageUrl: 'https://i.ytimg.com/vi/Iaq76W_HpaI/hqdefault.jpg',
     tracks:
@@ -182,62 +204,62 @@ const GROUPINGS =
     imageUrl: 'https://i.ytimg.com/vi/-bDntRWfL70/mqdefault.jpg',
     tracks: [ { youtubeId: 'i0djHJBAP3U', name: 'Huun Huur Tu Live at Fantasy Studios' } ]
   }
-, {
-    name: 'Muszikás - Ősz Az Idő',
-    imageUrl: 'https://i.ytimg.com/vi/sbwnQMU9CX8/hqdefault.jpg',
-    tracks:
-    [ { youtubeId: 'Yuegt46lB3g', name: 'Régi Lakodalmas' }
-    , { youtubeId: 'Kvea9mTqfuU', name: 'Istenem, Istenem' }
-    , { youtubeId: 'pCWDy6vazms', name: 'Kalotaszegi Legényes' }
-    , { youtubeId: 'gC1d3Y5NADI', name: 'Szapora' }
-    , { youtubeId: 'y0p18nqohV0', name: 'Betyárnóta' }
-    , { youtubeId: 'muoVjJFZ0Xw', name: 'Ősz Az Idő' }
-    , { youtubeId: 'K_97l74rxow', name: 'Kati-Kata' }
-    , { youtubeId: 'sPzIwjnYbFU', name: 'Bonchidai Cimbalmos' }
-    , { youtubeId: 'IoRe-q7hI1Y', name: 'Régi Somogyi Ének' }
-    ]
-  }
-, {
-    name: 'Muszikás - Nem Arról Hajnallik, Amerröl Hajnallott...',
-    imageUrl: 'https://i.ytimg.com/vi/7lvI8e3vPT4/hqdefault.jpg',
-    tracks:
-    [ { youtubeId: 'm839wzeA9Wk', name: 'Rabnóta' }
-    , { youtubeId: 'j4ALjgXcLHc', name: 'Eddig Vendég' }
-    , { youtubeId: 'YHOFAtsXyUE', name: 'Azt gondoltam eső esik' }
-    , { youtubeId: 'DSjakR3_8-k', name: 'Hidegen Fújnak A Szelek' }
-    , { youtubeId: 'nZhY1KEKFbM', name: 'Bujdosódal' }
-    , { youtubeId: 'apE1n63ZhMQ', name: 'Repülj Madár, Repülj' }
-    , { youtubeId: 'Z0_sC_FeMaw', name: 'Régen Volt, Soká Lesz' }
-    , { youtubeId: '2ZuJtLOI6uw', name: 'Szerelem, Szerelem' }
-    , { youtubeId: 'n90wjj6QoJw', name: 'Én Scak Azt Csodálom' }
-    , { youtubeId: 'QZrjQFXhkWU', name: 'Elment A Madarka' }
-    ]
-  }
-, {
-    name: 'Animal Collective - Merriweather Post Pavilion',
-    imageUrl: 'https://i.ytimg.com/vi/L99wAbddt4Y/hqdefault.jpg',
-    tracks:
-    [ { youtubeId: 'L99wAbddt4Y', name: 'In the Flowers' }
-    , { youtubeId: 'DRFlyfcbcFM', name: 'My Girls' }
-    , { youtubeId: 'mnhZM1acxW4', name: 'Also Frightened' }
-    , { youtubeId: 'oGaLBuLoMfw', name: 'Summertime Clothes' }
-    , { youtubeId: '47BvgpRTKno', name: 'Daily Routine' }
-    , { youtubeId: 'NZlXwPb_JPM', name: 'Bluish' }
-    , { youtubeId: 'XhtIIyvivSw', name: 'Guys Eyes' }
-    , { youtubeId: 'nlJDoMplnYU', name: 'Taste' }
-    , { youtubeId: 'i_42Sighttk', name: 'Lion in a Coma' }
-    , { youtubeId: '9AYoeRklU5s', name: 'No More Runnin' }
-    , { youtubeId: '3S1Zgwj-sOI', name: 'Brother Sport' }
-    ]
-  }
-, {
-    name: 'Broken Social Scene - You Forgot It In People',
-    imageUrl: 'https://img.discogs.com/wNK9ITt-yeH5DZ64Rjj_lzcnCuA=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb()/discogs-images/R-470665-1342922707-7683.jpeg.jpg',
-    tracks: [ { youtubeId: 'GZh9D2nTB24', name: 'You Forgot It In People (Full Album)' } ]
-  }
-, {
-    name: 'Broken Social Scene - Broken Social Scene',
-    imageUrl: 'http://cdn3.pitchfork.com/albums/948/e631aed9.jpg',
-    tracks: [ { youtubeId: 'ZhQGwZlYqDc', name: 'Broken Social Scene (Full Album)' } ]
-  }
+// , {
+//     name: 'Muszikás - Ősz Az Idő',
+//     imageUrl: 'https://i.ytimg.com/vi/sbwnQMU9CX8/hqdefault.jpg',
+//     tracks:
+//     [ { youtubeId: 'Yuegt46lB3g', name: 'Régi Lakodalmas' }
+//     , { youtubeId: 'Kvea9mTqfuU', name: 'Istenem, Istenem' }
+//     , { youtubeId: 'pCWDy6vazms', name: 'Kalotaszegi Legényes' }
+//     , { youtubeId: 'gC1d3Y5NADI', name: 'Szapora' }
+//     , { youtubeId: 'y0p18nqohV0', name: 'Betyárnóta' }
+//     , { youtubeId: 'muoVjJFZ0Xw', name: 'Ősz Az Idő' }
+//     , { youtubeId: 'K_97l74rxow', name: 'Kati-Kata' }
+//     , { youtubeId: 'sPzIwjnYbFU', name: 'Bonchidai Cimbalmos' }
+//     , { youtubeId: 'IoRe-q7hI1Y', name: 'Régi Somogyi Ének' }
+//     ]
+//   }
+// , {
+//     name: 'Muszikás - Nem Arról Hajnallik, Amerröl Hajnallott...',
+//     imageUrl: 'https://i.ytimg.com/vi/7lvI8e3vPT4/hqdefault.jpg',
+//     tracks:
+//     [ { youtubeId: 'm839wzeA9Wk', name: 'Rabnóta' }
+//     , { youtubeId: 'j4ALjgXcLHc', name: 'Eddig Vendég' }
+//     , { youtubeId: 'YHOFAtsXyUE', name: 'Azt gondoltam eső esik' }
+//     , { youtubeId: 'DSjakR3_8-k', name: 'Hidegen Fújnak A Szelek' }
+//     , { youtubeId: 'nZhY1KEKFbM', name: 'Bujdosódal' }
+//     , { youtubeId: 'apE1n63ZhMQ', name: 'Repülj Madár, Repülj' }
+//     , { youtubeId: 'Z0_sC_FeMaw', name: 'Régen Volt, Soká Lesz' }
+//     , { youtubeId: '2ZuJtLOI6uw', name: 'Szerelem, Szerelem' }
+//     , { youtubeId: 'n90wjj6QoJw', name: 'Én Scak Azt Csodálom' }
+//     , { youtubeId: 'QZrjQFXhkWU', name: 'Elment A Madarka' }
+//     ]
+//   }
+// , {
+//     name: 'Animal Collective - Merriweather Post Pavilion',
+//     imageUrl: 'https://i.ytimg.com/vi/L99wAbddt4Y/hqdefault.jpg',
+//     tracks:
+//     [ { youtubeId: 'L99wAbddt4Y', name: 'In the Flowers' }
+//     , { youtubeId: 'DRFlyfcbcFM', name: 'My Girls' }
+//     , { youtubeId: 'mnhZM1acxW4', name: 'Also Frightened' }
+//     , { youtubeId: 'oGaLBuLoMfw', name: 'Summertime Clothes' }
+//     , { youtubeId: '47BvgpRTKno', name: 'Daily Routine' }
+//     , { youtubeId: 'NZlXwPb_JPM', name: 'Bluish' }
+//     , { youtubeId: 'XhtIIyvivSw', name: 'Guys Eyes' }
+//     , { youtubeId: 'nlJDoMplnYU', name: 'Taste' }
+//     , { youtubeId: 'i_42Sighttk', name: 'Lion in a Coma' }
+//     , { youtubeId: '9AYoeRklU5s', name: 'No More Runnin' }
+//     , { youtubeId: '3S1Zgwj-sOI', name: 'Brother Sport' }
+//     ]
+//   }
+// , {
+//     name: 'Broken Social Scene - You Forgot It In People',
+//     imageUrl: 'https://img.discogs.com/wNK9ITt-yeH5DZ64Rjj_lzcnCuA=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb()/discogs-images/R-470665-1342922707-7683.jpeg.jpg',
+//     tracks: [ { youtubeId: 'GZh9D2nTB24', name: 'You Forgot It In People (Full Album)' } ]
+//   }
+// , {
+//     name: 'Broken Social Scene - Broken Social Scene',
+//     imageUrl: 'http://cdn3.pitchfork.com/albums/948/e631aed9.jpg',
+//     tracks: [ { youtubeId: 'ZhQGwZlYqDc', name: 'Broken Social Scene (Full Album)' } ]
+//   }
 ]
