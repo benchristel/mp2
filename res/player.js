@@ -28,6 +28,7 @@
 
           window.addEventListener('keydown', function(event) {
             if (event.keyCode === 32) {
+              event.preventDefault()
               if (playerState === YT.PlayerState.PLAYING) {
                 player.pauseVideo()
               } else if (playerState === YT.PlayerState.PAUSED) {
