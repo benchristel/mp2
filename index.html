@@ -11,41 +11,80 @@
   box-sizing: border-box;
 }
 
+html: {
+  height: 100%;
+}
+
 body {
   font-size: 16px;
   font-family: Arial, sans-serif;
   color: #ddd;
-  background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-tile {
+.background {
+  background: linear-gradient(#222 0, #333 20%, #222 20.5%, #282828 100%);
+  perspective-origin: 50% 10%;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.tile {
   display: block;
+  position: relative;
   cursor: pointer;
-  border: 1px solid #888;
+  border: 1px solid #555;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.8);
   width: 200px;
   height: 200px;
   background-size: cover;
   background-position-x: center;
   transition: 0.5s;
+  background-blend-mode: lighten;
 }
 
-tile.selected {
-  transform: perspective(400px) rotateY(20deg);
+.tile:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-image: radial-gradient(500px at 80% -75%, #fff 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 52%);
+  transition: 0.5s;
+  opacity: 0;
 }
 
-grid-cell {
+.tile.selected {
+  transform: rotateY(10deg);
+}
+
+.tile.selected:after {
+  opacity: 1;
+}
+
+.grid-cell {
   float: left;
   padding: 12px;
 }
 
-grid {
+.grid {
   display: block;
   padding: 10px;
   width: 100%;
 }
 
-player-container {
+#player-container {
   display: block;
   position: absolute;
   top: -999px;
@@ -55,6 +94,16 @@ player-container {
   background-color: #111;
   padding: 10px;
   padding-left: 22px;
+  height: 40px;
+}
+
+#scrolling-content {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
 }
 
 </style>
@@ -95,18 +144,23 @@ Player.onUpdate(handleSomethingHappening)
 
 </head>
 <body>
-
-<player-container>
+<div id="player-container">
   <div id="player"></div>
-</player-container>
-
-<div id="top-bar">
-  <input id="shuffle-checkbox" type="checkbox" />
-  <label>Shuffle</label>
 </div>
 
-<grid>
-</grid>
+<div class="background">
+  <div id="top-bar">
+    <input id="shuffle-checkbox" type="checkbox" />
+    <label>Shuffle</label>
+  </div>
+
+  <div id="scrolling-content">
+    <div class="grid">
+    </div>
+  </div>
+</div>
+
+
 
 <script>
 // UI setup
@@ -117,13 +171,15 @@ document.getElementById('shuffle-checkbox').addEventListener('change', function(
   }
 })
 
-let grid = document.getElementsByTagName('grid')[0]
+let grid = document.getElementsByClassName('grid')[0]
 
 function createTile(imageUrl) {
-  let tile = document.createElement('tile')
+  let tile = document.createElement('div')
+  tile.classList.add('tile')
   tile.style = "background-image:url('" + imageUrl + "')"
 
-  let gridCell = document.createElement('grid-cell')
+  let gridCell = document.createElement('div')
+  gridCell.classList.add('grid-cell')
   gridCell.appendChild(tile)
   grid.appendChild(gridCell)
 
