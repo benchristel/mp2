@@ -18,7 +18,8 @@ function Grouping(spec) {
       shuffle = _shuffle
     },
 
-    imageUrl: spec.imageUrl
+    imageUrl: spec.imageUrl,
+    name: spec.name
 	}
 
   function indexToDequeue() {
