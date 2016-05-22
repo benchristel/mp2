@@ -1,7 +1,7 @@
 
 const GROUPINGS =
 [ {
-    name: 'Nightwish',
+    name: 'Once - Nightwish',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/2/22/OnceNightwishCover.jpg',
     tracks: 
     [ { youtubeId: 'rBETIUlgZdY', name: 'Dark Chest Of Wonders' }
@@ -17,7 +17,13 @@ const GROUPINGS =
     , { youtubeId: 'EZOk87UwlkU', name: 'Higher Than Hope' }
     , { youtubeId: '6jqdT5jibCM', name: 'White Night Fantasy' }
     , { youtubeId: 'YF92oneQUz4', name: 'Live To Tell The Tale' }
-    , { youtubeId: 'iUaa0s44w5g', name: 'She Is My Sin' }
+    ]
+  }
+, {
+    name: 'Wishmaster - Nightwish',
+    imageUrl: 'https://i.ytimg.com/vi/pPQxLRv8owM/hqdefault.jpg',
+    tracks: 
+    [ { youtubeId: 'iUaa0s44w5g', name: 'She Is My Sin' }
     , { youtubeId: 'kGocsn-Zzmg', name: 'The Kinslayer' }
     , { youtubeId: 'TJQKBrdDV_4', name: 'Come Over Me' }
     , { youtubeId: 'l2UD5VdaNU8', name: 'Wanderlust' }
@@ -32,7 +38,7 @@ const GROUPINGS =
     ]
   }
 , {
-    name: 'Jethro Tull',
+    name: 'Stand Up - Jethro Tull',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/d/d8/JethroTull-albums-standup.jpg',
     tracks:
     [ { youtubeId: 'R9JF7lUMH1U', name: 'A New Day Yesterday' }
@@ -49,7 +55,13 @@ const GROUPINGS =
     , { youtubeId: '7u8Me9lgosc', name: 'Driving Song' }
     , { youtubeId: 'xxc_HwmcTUI', name: 'Sweet Dream' }
     , { youtubeId: 'Mxr9R2GvMbk', name: '17' }
-    , { youtubeId: 'gfKzPV-Ely4', name: 'With You There To Help Me' }
+    ]
+  }
+, {
+    name: 'Benefit - Jethro Tull',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/e/e1/JethroTull-albums-benefit.jpg',
+    tracks:
+    [ { youtubeId: 'gfKzPV-Ely4', name: 'With You There To Help Me' }
     , { youtubeId: 'b1Pzk_UYnos', name: 'Nothing To Say' }
     , { youtubeId: '2gfeRCSNBQM', name: 'Alive And Well And Living In' }
     , { youtubeId: 'KQpsbE6pH8s', name: 'Son' }
@@ -90,7 +102,7 @@ const GROUPINGS =
     ]
   }
 , {
-    name: 'Alice Deejay',
+    name: 'Who Needs Guitars Anyway? - Alice Deejay',
     imageUrl: 'https://i.ytimg.com/p/PL3num2og-PkiJ9DTm_t215URlwETEkIOZ/sddefault.jpg',
     tracks: 
     [ { youtubeId: 'ldgwAAwj9zs', name: 'Back In My Life' }
@@ -119,7 +131,7 @@ const GROUPINGS =
     ]
   }
 , {
-    name: 'Sting - Songs From The Labyrinth',
+    name: 'Songs From The Labyrinth - Sting',
     imageUrl: 'http://ecx.images-amazon.com/images/I/51FBXEYFD6L._SX300_.jpg',
     tracks:
     [ { youtubeId: 'N_p9N2hJyCI', name: 'Walsingham' }
@@ -141,13 +153,13 @@ const GROUPINGS =
     ]
 }
 , {
-    name: 'Of The Wand And The Moon - :Nighttime Nightrhymes: (Full Album)',
+    name: '(Full Album) :Nighttime Nightrhymes: - Of The Wand And The Moon',
     imageUrl: 'https://i.ytimg.com/vi/Iaq76W_HpaI/hqdefault.jpg',
     tracks:
     [ { youtubeId: 'Iaq76W_HpaI', name: ':Nighttime Nightrhymes: (Full Album)' } ]
   }
 , {
-    name: 'Of The Wand And The Moon - Emptiness Emptiness Emptiness',
+    name: 'Emptiness Emptiness Emptiness - Of The Wand And The Moon',
     imageUrl: 'https://i.ytimg.com/vi/vo3abZ9jsn8/hqdefault.jpg',
     tracks:
     [ { youtubeId: 'KDVog7luAbY', name: 'Lost In Emptiness' }
@@ -162,7 +174,7 @@ const GROUPINGS =
     ]
   }
 , {
-    name: 'AFI - Decemberunderground',
+    name: 'Decemberunderground - AFI',
     imageUrl: 'https://i.ytimg.com/p/PLDJpDK05PqjI8-F6jwqAt75iyByVo0leZ/sddefault.jpg',
     tracks: 
     [ { youtubeId: '2geNugMv3Cc', name: 'Prelude 12/21' }
@@ -179,7 +191,7 @@ const GROUPINGS =
     ]
   }
 , {
-    name: 'Manu Chao - Clandestino',
+    name: 'Clandestino - Manu Chao',
     imageUrl: 'http://ecx.images-amazon.com/images/I/51PHN96NDCL.jpg',
     tracks: 
     [ { youtubeId: 'Qew9cYR3t0g', name: 'Desaparecido' }
