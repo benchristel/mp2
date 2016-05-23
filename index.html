@@ -135,11 +135,12 @@ body {
 <script type="text/javascript" src="res/random.js"></script>
 <script type="text/javascript" src="res/grouping.js"></script>
 <script type="text/javascript">
+"use strict";
 
-let groupings = GROUPINGS.map(groupingSpec => Grouping(groupingSpec))
+var groupings = GROUPINGS.map(function(groupingSpec) { return Grouping(groupingSpec) })
 
 function nextTrack() {
-  let randomSelectedGrouping = chooseRandomly(groupings.filter(g => g.selected))
+  var randomSelectedGrouping = chooseRandomly(groupings.filter(function (g) { return g.selected }))
 
   return randomSelectedGrouping 
     ? randomSelectedGrouping.dequeue()
@@ -185,6 +186,8 @@ Player.onUpdate(handleSomethingHappening)
 
 
 <script>
+"use strict";
+
 // UI setup
 
 document.getElementById('shuffle-checkbox').addEventListener('change', function(event) {

@@ -23,7 +23,7 @@
       width: '200',
       videoId: null,
       events: {
-        'onReady': () => {
+        'onReady': function() {
           playerState = YT.PlayerState.UNSTARTED
 
           window.addEventListener('keydown', function(event) {
@@ -40,7 +40,7 @@
           ready = true
           notifyUpdateListeners()
         },
-        'onStateChange': event => {
+        'onStateChange': function(event) {
           if (playerState !== event.data) {
             playerState = event.data
             if (playerState === YT.PlayerState.ENDED) {
