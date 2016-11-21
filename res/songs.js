@@ -3,7 +3,7 @@ const GROUPINGS =
 [ {
     name: 'Once - Nightwish',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/2/22/OnceNightwishCover.jpg',
-    tracks: 
+    tracks:
     [ { youtubeId: 'rBETIUlgZdY', name: 'Dark Chest Of Wonders' }
     , { youtubeId: '-xPIdta_uXI', name: 'Wish I Had An Angel' }
     , { youtubeId: 'kIBdpFJyFkc', name: 'Nemo' }
@@ -22,7 +22,7 @@ const GROUPINGS =
 , {
     name: 'Wishmaster - Nightwish',
     imageUrl: 'https://i.ytimg.com/vi/pPQxLRv8owM/hqdefault.jpg',
-    tracks: 
+    tracks:
     [ { youtubeId: 'iUaa0s44w5g', name: 'She Is My Sin' }
     , { youtubeId: 'kGocsn-Zzmg', name: 'The Kinslayer' }
     , { youtubeId: 'TJQKBrdDV_4', name: 'Come Over Me' }
@@ -77,10 +77,24 @@ const GROUPINGS =
     , { youtubeId: 'xkzeeEU27Mw', name: 'Teacher' }
     ]
   }
+  , {
+      name: 'Selling England By The Pound - Genesis',
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/en/5/57/GenesisSellingEngland.jpg',
+      tracks:
+      [ { youtubeId: 'r0Spl1cOf-o', name: 'Dancing With The Moonlit Knight' }
+      , { youtubeId: 'y1tFQMjc-IE', name: 'I Know What I Like (In Your Wardrobe)' }
+      , { youtubeId: 'SD5engyVXe0', name: 'Firth Of Fifth' }
+      , { youtubeId: 'uyagd2EvwDU', name: 'More Fool Me' }
+      , { youtubeId: 'vFuIYyXiD5w', name: 'The Battle of Epping Forest' }
+      , { youtubeId: 'VZU3AVyAFC4', name: 'After the Ordeal' }
+      , { youtubeId: 'G501Ii0X0NE', name: 'The Cinema Show' }
+      , { youtubeId: 'bxTS_NZOIlg', name: 'Aisle of Plenty' }
+      ]
+    }
 , {
     name: 'Heroes IV',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg',
-    tracks: 
+    tracks:
     [ { youtubeId: 'cvyS50v2Uts', name: 'Main Theme' }
     , { youtubeId: 'dDHk6gXK_9s', name: 'Preserve' }
     , { youtubeId: '_OCxQHsSijw', name: 'The Last Battle' }
@@ -104,7 +118,7 @@ const GROUPINGS =
 , {
     name: 'Who Needs Guitars Anyway? - Alice Deejay',
     imageUrl: 'https://i.ytimg.com/p/PL3num2og-PkiJ9DTm_t215URlwETEkIOZ/sddefault.jpg',
-    tracks: 
+    tracks:
     [ { youtubeId: 'ldgwAAwj9zs', name: 'Back In My Life' }
     , { youtubeId: 'd6GTKrW5_50', name: 'No More Lies' }
     , { youtubeId: 'i1MvG3beRJ0', name: 'I Can See (See It In Your Eyes)' }
@@ -176,7 +190,7 @@ const GROUPINGS =
 , {
     name: 'Decemberunderground - AFI',
     imageUrl: 'https://i.ytimg.com/p/PLDJpDK05PqjI8-F6jwqAt75iyByVo0leZ/sddefault.jpg',
-    tracks: 
+    tracks:
     [ { youtubeId: '2geNugMv3Cc', name: 'Prelude 12/21' }
     , { youtubeId: '7Kz9xXyDPzM', name: 'Kill Caustic' }
     , { youtubeId: 'YU4hhNKsPog', name: 'Miss Murder' }
@@ -193,7 +207,7 @@ const GROUPINGS =
 , {
     name: 'Clandestino - Manu Chao',
     imageUrl: 'http://ecx.images-amazon.com/images/I/51PHN96NDCL.jpg',
-    tracks: 
+    tracks:
     [ { youtubeId: 'Qew9cYR3t0g', name: 'Desaparecido' }
     , { youtubeId: 'a_UqAMQT_LE', name: 'Bongo Bong' }
     , { youtubeId: 'Qn6IBCYVQAY', name: 'Je Ne T\'aime Plus' }
