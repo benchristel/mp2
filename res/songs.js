@@ -116,6 +116,19 @@ const GROUPINGS =
     ]
   }
 , {
+    name: 'Happy Hardcore',
+    imageUrl: 'https://i.ytimg.com/vi/19O7tVu7NlA/hqdefault.jpg',
+    tracks:
+    [ { youtubeId: 'w4cu4Dwm03s', name: 'Music Is My First Love (Hixxy)' }
+    , { youtubeId: 'r2Xen3PQpzc', name: 'Eye Opener (Brisk and Trixxy)' }
+    , { youtubeId: '43eFS5b_Q_8', name: 'Believe (Frisky & Hujib)' }
+    , { youtubeId: 'elWepQarFQk', name: 'The One (Frisky & Hujib)' }
+    , { youtubeId: 'J6owIVkSEKo', name: 'Angel Eyes (Re-Con Remix)' }
+    , { youtubeId: '19O7tVu7NlA', name: 'My Direction (D-Code Ft. Emma) (Squad-E Remix)' }
+    , { youtubeId: 'yPvZdZ5QR8A', name: 'Braveheart (Hixxy)' }
+    ]
+  }
+, {
     name: 'Who Needs Guitars Anyway? - Alice Deejay',
     imageUrl: 'https://i.ytimg.com/p/PL3num2og-PkiJ9DTm_t215URlwETEkIOZ/sddefault.jpg',
     tracks:
