@@ -274,31 +274,31 @@ const GROUPINGS =
 //     , { youtubeId: 'QZrjQFXhkWU', name: 'Elment A Madarka' }
 //     ]
 //   }
-// , {
-//     name: 'Animal Collective - Merriweather Post Pavilion',
-//     imageUrl: 'https://i.ytimg.com/vi/L99wAbddt4Y/hqdefault.jpg',
-//     tracks:
-//     [ { youtubeId: 'L99wAbddt4Y', name: 'In the Flowers' }
-//     , { youtubeId: 'DRFlyfcbcFM', name: 'My Girls' }
-//     , { youtubeId: 'mnhZM1acxW4', name: 'Also Frightened' }
-//     , { youtubeId: 'oGaLBuLoMfw', name: 'Summertime Clothes' }
-//     , { youtubeId: '47BvgpRTKno', name: 'Daily Routine' }
-//     , { youtubeId: 'NZlXwPb_JPM', name: 'Bluish' }
-//     , { youtubeId: 'XhtIIyvivSw', name: 'Guys Eyes' }
-//     , { youtubeId: 'nlJDoMplnYU', name: 'Taste' }
-//     , { youtubeId: 'i_42Sighttk', name: 'Lion in a Coma' }
-//     , { youtubeId: '9AYoeRklU5s', name: 'No More Runnin' }
-//     , { youtubeId: '3S1Zgwj-sOI', name: 'Brother Sport' }
-//     ]
-//   }
-// , {
-//     name: 'Broken Social Scene - You Forgot It In People',
-//     imageUrl: 'https://img.discogs.com/wNK9ITt-yeH5DZ64Rjj_lzcnCuA=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb()/discogs-images/R-470665-1342922707-7683.jpeg.jpg',
-//     tracks: [ { youtubeId: 'GZh9D2nTB24', name: 'You Forgot It In People (Full Album)' } ]
-//   }
-// , {
-//     name: 'Broken Social Scene - Broken Social Scene',
-//     imageUrl: 'http://cdn3.pitchfork.com/albums/948/e631aed9.jpg',
-//     tracks: [ { youtubeId: 'ZhQGwZlYqDc', name: 'Broken Social Scene (Full Album)' } ]
-//   }
+, {
+    name: 'Animal Collective - Merriweather Post Pavilion',
+    imageUrl: 'https://i.ytimg.com/vi/L99wAbddt4Y/hqdefault.jpg',
+    tracks:
+    [ { youtubeId: 'L99wAbddt4Y', name: 'In the Flowers' }
+    , { youtubeId: 'DRFlyfcbcFM', name: 'My Girls' }
+    , { youtubeId: 'mnhZM1acxW4', name: 'Also Frightened' }
+    , { youtubeId: 'oGaLBuLoMfw', name: 'Summertime Clothes' }
+    , { youtubeId: '47BvgpRTKno', name: 'Daily Routine' }
+    , { youtubeId: 'NZlXwPb_JPM', name: 'Bluish' }
+    , { youtubeId: 'XhtIIyvivSw', name: 'Guys Eyes' }
+    , { youtubeId: 'nlJDoMplnYU', name: 'Taste' }
+    , { youtubeId: 'i_42Sighttk', name: 'Lion in a Coma' }
+    , { youtubeId: '9AYoeRklU5s', name: 'No More Runnin' }
+    , { youtubeId: '3S1Zgwj-sOI', name: 'Brother Sport' }
+    ]
+  }
+, {
+    name: 'Broken Social Scene - You Forgot It In People',
+    imageUrl: 'https://img.discogs.com/wNK9ITt-yeH5DZ64Rjj_lzcnCuA=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb()/discogs-images/R-470665-1342922707-7683.jpeg.jpg',
+    tracks: [ { youtubeId: 'GZh9D2nTB24', name: 'You Forgot It In People (Full Album)' } ]
+  }
+, {
+    name: 'Broken Social Scene - Broken Social Scene',
+    imageUrl: 'http://cdn3.pitchfork.com/albums/948/e631aed9.jpg',
+    tracks: [ { youtubeId: 'ZhQGwZlYqDc', name: 'Broken Social Scene (Full Album)' } ]
+  }
 ]
