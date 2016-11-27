@@ -27,13 +27,17 @@
           playerState = YT.PlayerState.UNSTARTED
 
           window.addEventListener('keydown', function(event) {
-            if (event.keyCode === 32) {
+            if (event.keyCode === 32) { // spacebar
               event.preventDefault()
               if (playerState === YT.PlayerState.PLAYING) {
                 player.pauseVideo()
               } else if (playerState === YT.PlayerState.PAUSED) {
                 player.playVideo()
               }
+            }
+            if (event.keyCode === 39) { // right arrow
+              event.preventDefault()
+              player.seekTo(99999, true)
             }
           })
 
