@@ -6,7 +6,7 @@ Music player, personalized
 
 MP<sup>2</sup> lets you organize music from Youtube into easily accessible **groupings**. Groupings can be played in order (like a playlist) or shuffled together (like a radio station).
 
-Check out the live demo [here](https://benchristel.github.io/mp2).
+Check out the live demo [here](https://benchristel.github.io/music).
 
 ## Why
 
