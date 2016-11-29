@@ -120,12 +120,16 @@ const GROUPINGS =
     imageUrl: 'https://i.ytimg.com/vi/19O7tVu7NlA/hqdefault.jpg',
     tracks:
     [ { youtubeId: 'w4cu4Dwm03s', name: 'Music Is My First Love (Hixxy)' }
+    , { youtubeId: 'hUS1Ir0Vqqs', name: 'Here I Am (Ham, Demo, & Justin Time)' }
     , { youtubeId: 'r2Xen3PQpzc', name: 'Eye Opener (Brisk and Trixxy)' }
     , { youtubeId: '43eFS5b_Q_8', name: 'Believe (Frisky & Hujib)' }
+    , { youtubeId: 'BO1QM1b1IfI', name: 'Have You Ever Been Mellow (Tune Up)' }
+    , { youtubeId: 'gbPyQHx8HDc', name: 'Feel Fine (Tune Up)' }
     , { youtubeId: 'elWepQarFQk', name: 'The One (Frisky & Hujib)' }
     , { youtubeId: 'J6owIVkSEKo', name: 'Angel Eyes (Re-Con Remix)' }
     , { youtubeId: '19O7tVu7NlA', name: 'My Direction (D-Code Ft. Emma) (Squad-E Remix)' }
     , { youtubeId: 'yPvZdZ5QR8A', name: 'Braveheart (Hixxy)' }
+    , { youtubeId: 'wfwEZyceLMU', name: 'In Your Life (Brisk & Ham)' }
     ]
   }
 , {
@@ -198,6 +202,28 @@ const GROUPINGS =
     , { youtubeId: 'IumDFetwT3g', name: 'Here\'s To Misery (A Toast)' }
     , { youtubeId: 'NM1Clbzs0e0', name: 'Can I Erase The Demon?' }
     , { youtubeId: 'B5InWgyMStQ', name: 'Reciful' }
+    ]
+  }
+, {
+  name: '(Full Album) Forgotten Woods in Autumn\'s Silence - Raflum',
+  imageUrl: 'https://f4.bcbits.com/img/a1184544366_10.jpg',
+  tracks: [ { youtubeId: 'VdFo_yRKr9Y', name: 'Forgotten Woods in Autumn\'s Silence' } ]
+}
+, {
+    name: 'Mr Beast - Mogwai',
+    imageUrl: 'http://cdn3.pitchfork.com/albums/5303/homepage_large.a0b48113.jpg',
+    tracks:
+    [ { youtubeId: 'dnUl846J8-M', name: 'Auto Rock' }
+    , { youtubeId: 'WrXwXuhRo9Q', name: 'Glasgow Mega-Snake' }
+    , { youtubeId: 'PeOka7VF4Q8', name: 'Acid Food' }
+    , { youtubeId: 'XLk-2My4wNs', name: 'Travel is Dangerous' }
+    , { youtubeId: 'g3lwKpLNV9I', name: 'Team Handed' }
+    , { youtubeId: 'fZKVNJqpBPQ', name: 'Friend of the Night' }
+    , { youtubeId: 'QfYOWadCKSo', name: 'Emergency Trap' }
+    , { youtubeId: 'Ica4LgRMSug', name: 'Folk Death 95' }
+    , { youtubeId: 'jHBou_UW3S0', name: 'I Chose Horses' }
+    , { youtubeId: 'aeRsLPQannM', name: 'We\'re No Here' }
+    , { youtubeId: 'CNlpD5uvsoA', name: '1% Of Monster' }
     ]
   }
 , {
