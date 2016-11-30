@@ -327,4 +327,21 @@ const GROUPINGS =
     imageUrl: 'http://cdn3.pitchfork.com/albums/948/e631aed9.jpg',
     tracks: [ { youtubeId: 'ZhQGwZlYqDc', name: 'Broken Social Scene (Full Album)' } ]
   }
+, {
+    name: 'Wincing The Night Away - The Shins',
+    imageUrl: 'https://i.ytimg.com/vi/42HqbyTc6uA/hqdefault.jpg',
+    tracks:
+    [ { youtubeId: '42HqbyTc6uA', name: 'Sleeping Lessons' }
+    , { youtubeId: '85SH_bv2xNY', name: 'Australia' }
+    , { youtubeId: 'H8YXdMcRba0', name: 'Pam Berry' }
+    , { youtubeId: 'o0s4NDAq8Iw', name: 'Phantom Limb' }
+    , { youtubeId: 'dHEPojMaaLU', name: 'Sea Legs' }
+    , { youtubeId: 'taUb6NBKgQc', name: 'Red Rabbits' }
+    , { youtubeId: '-tx4dvq9lsY', name: 'Turn On Me' }
+    , { youtubeId: 'NCf1MlAVDKA', name: 'Black Wave' }
+    , { youtubeId: 'aTxIkIlQONE', name: 'Split Needles' }
+    , { youtubeId: 'weBW-ojpWRU', name: 'Girl Sailor' }
+    , { youtubeId: 'qJvYY_mKJvQ', name: 'A Comet Appears' }
+    ]
+  }
 ]
