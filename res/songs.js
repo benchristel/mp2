@@ -269,6 +269,15 @@ const GROUPINGS =
     imageUrl: 'https://i.ytimg.com/vi/-bDntRWfL70/mqdefault.jpg',
     tracks: [ { youtubeId: 'i0djHJBAP3U', name: 'Huun Huur Tu Live at Fantasy Studios' } ]
   }
+, {
+    name: 'Hungarian Folk',
+    imageUrl: 'https://a4-images.myspacecdn.com/images03/34/6f7f2c6588294cadbd7a298aff0e4d1b/300x300.jpg',
+    tracks:
+    [ { youtubeId: 'Yuegt46lB3g', name: 'Régi Lakodalmas (Muszikás)' }
+    , { youtubeId: 'apE1n63ZhMQ', name: 'Repülj Madár, Repülj (Márta Sebestyén)' }
+    , { youtubeId: 'YHOFAtsXyUE', name: 'Azt gondoltam eső esik (Márta Sebestyén)' }
+    ]
+}
 // , {
 //     name: 'Muszikás - Ősz Az Idő',
 //     imageUrl: 'https://i.ytimg.com/vi/sbwnQMU9CX8/hqdefault.jpg',
