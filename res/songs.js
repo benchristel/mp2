@@ -38,6 +38,20 @@ const GROUPINGS =
     ]
   }
 , {
+    name: 'Dragonslayer - Sunset Rubdown',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Sunset-rubdown-dragonslayer.jpg/220px-Sunset-rubdown-dragonslayer.jpg',
+    tracks:
+    [ { youtubeId: '6OPbEYljPLs', name: 'Silver Moons' }
+    , { youtubeId: '1m9au8nNn1Q', name: 'Idiot Heart' }
+    , { youtubeId: 'A7jo4ExgkS8', name: 'Apollo And The Buffalo And Anna Anna Anna Oh!' }
+    , { youtubeId: '7c9YDgL5yDA', name: 'Black Swan' }
+    , { youtubeId: 'sfZJhco5NA8', name: 'Paper Lace' }
+    , { youtubeId: '9Tf8rrW50h8', name: 'You Go On Ahead' }
+    , { youtubeId: 'brpl2ZlDlAc', name: 'Nightingale / December Song' }
+    , { youtubeId: 'y9QF7mbsd10', name: 'Dragon\'s Lair' }
+    ]
+  }
+, {
     name: 'Stand Up - Jethro Tull',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/d/d8/JethroTull-albums-standup.jpg',
     tracks:
