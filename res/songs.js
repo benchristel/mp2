@@ -1,6 +1,51 @@
 
 const GROUPINGS =
 [ {
+    name: 'Emotionally Ambiguous',
+    imageUrl: 'https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/4/3/1364983808637/aggression.PNG',
+    tracks:
+    [ { youtubeId: 'brpl2ZlDlAc', name: 'Nightingale / December Song' }
+    , { youtubeId: '1m9au8nNn1Q', name: 'Idiot Heart' }
+    , { youtubeId: '7c9YDgL5yDA', name: 'Black Swan' }
+    , { youtubeId: 'iznQpk9GLaA', name: 'Fat Man' }
+    , { youtubeId: 'z6ZJGaT30wk', name: 'Bouree' }
+    , { youtubeId: 'R9JF7lUMH1U', name: 'A New Day Yesterday' }
+    , { youtubeId: 'Tn9IyFLDtjk', name: 'Living In The Past' }
+    , { youtubeId: 'a3uqdoJxJ50', name: 'Back to The Family' }
+    , { youtubeId: 'A6VXRSVZHIY', name: 'Look Into The Sun' }
+    , { youtubeId: 'Wdv8PmIDLCQ', name: 'Play In Time' }
+    , { youtubeId: 'S5vto70Q23E', name: 'To Cry You A Song' }
+    , { youtubeId: 'KQpsbE6pH8s', name: 'Son' }
+    , { youtubeId: 'kSZO8vD54ts', name: 'Floating Across Water' }
+    , { youtubeId: 'J7bEWgt2EKo', name: 'The Academy of Honor' }
+    , { youtubeId: 'tNUX6Zd89C8', name: 'Wandering' }
+    , { youtubeId: 'DsWwGUYeL4k', name: 'Who Needs Guitars Anyway?' }
+    , { youtubeId: 'YytZ5h9nOOo', name: 'The Lonely One' }
+    , { youtubeId: 'Qlb57uzn1zE', name: 'How Much Is the Fish?' }
+    , { youtubeId: 'GzOKz_3ukMI', name: 'Can She Excuse My Wrongs' }
+    , { youtubeId: 'N_p9N2hJyCI', name: 'Walsingham' }
+    , { youtubeId: 'u-XpVhP7UGU', name: 'The Lowest Trees Have Tops' }
+    , { youtubeId: 'K7QOBtdnaxU', name: 'The Most High And Mighty Christianus The Fourth, King of Denmark, His Galliard' }
+    , { youtubeId: 'KQ5DJ4BCiCg', name: 'My Lord Willoughby\'s Welcome Home' }
+    , { youtubeId: 'Hmo6MFon6K8', name: 'Summer Shudder' }
+    , { youtubeId: '_pO7OqyQp1c', name: 'Kiss And Control' }
+    , { youtubeId: 'Iu6fo0ojwp0', name: 'The Killing Lights' }
+    , { youtubeId: 'a_UqAMQT_LE', name: 'Bongo Bong' }
+    , { youtubeId: 'JVmjLGxFJAw', name: 'Welcome To Tijuana' }
+    , { youtubeId: 'E-nSiMSEIyk', name: 'Malegría' }
+    , { youtubeId: 'Yuegt46lB3g', name: 'Régi Lakodalmas (Muszikás)' }
+    , { youtubeId: 'apE1n63ZhMQ', name: 'Repülj Madár, Repülj (Márta Sebestyén)' }
+    , { youtubeId: 'YHOFAtsXyUE', name: 'Azt gondoltam eső esik (Márta Sebestyén)' }
+    , { youtubeId: 'nlJDoMplnYU', name: 'Taste' }
+    , { youtubeId: 'i_42Sighttk', name: 'Lion in a Coma' }
+    , { youtubeId: '42HqbyTc6uA', name: 'Sleeping Lessons' }
+    , { youtubeId: 'dHEPojMaaLU', name: 'Sea Legs' }
+    , { youtubeId: 'taUb6NBKgQc', name: 'Red Rabbits' }
+    , { youtubeId: 'hRKJTZ_M1Pg', name: 'Kickstarts (Example - Bar 9 Remix)' }
+    , { youtubeId: 'zMR5K2QWfJk', name: 'Night (Benga & Coki)' }
+    ]
+  }
+, {
     name: 'Once - Nightwish',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/2/22/OnceNightwishCover.jpg',
     tracks:
@@ -173,6 +218,15 @@ const GROUPINGS =
     [ { youtubeId: 'Qlb57uzn1zE', name: 'How Much Is the Fish?' }
     , { youtubeId: '4YxTa1AUqps', name: 'The Logical Song' }
     , { youtubeId: '8i1FTCxf7Bk', name: 'Nessaja' }
+    ]
+  }
+, {
+    name: 'Dubstep',
+    imageUrl: 'https://i.ytimg.com/vi/hRKJTZ_M1Pg/hqdefault.jpg',
+    tracks:
+    [ { youtubeId: 'hRKJTZ_M1Pg', name: 'Kickstarts (Example - Bar 9 Remix)' }
+    , { youtubeId: 'K1VLaXoRRdk', name: 'Cracks (Freestylers ft. Belle Humble - Flux Pavilion Remix)' }
+    , { youtubeId: 'zMR5K2QWfJk', name: 'Night (Benga & Coki)' }
     ]
   }
 , {
