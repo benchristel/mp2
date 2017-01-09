@@ -421,4 +421,22 @@ const GROUPINGS =
     , { youtubeId: 'qJvYY_mKJvQ', name: 'A Comet Appears' }
     ]
   }
+, {
+    name: 'Celtic Christmas II - Windham Hill',
+    imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/51iAuqSH0hL._SS500.jpg',
+    tracks:
+    [ { youtubeId: '5rP2MhR1Bos', name: 'Chanonry Point (Phil Cunningham, Manus Lunny)' }
+    , { youtubeId: 'Il8d03N2PEA', name: 'Amanecer (Dawn) (Carlos Núñez Muñoz)' }
+    , { youtubeId: 'tmZuaqW8m4g', name: 'The Wexford Carol (James Galway)' }
+    , { youtubeId: 'yYtxjXXy-Kk', name: 'Bríd Og Ní Mháille (Nightnoise)' }
+    , { youtubeId: 'Pjr1oaI4xkM', name: 'The Day\'s Last Light (Seamus Eagan)' }
+    , { youtubeId: 'NC0vU-zJEpE', name: 'Muladach Mi Is Mi Air M\'Aineol (Capercaillie)' }
+    , { youtubeId: 'gDKmbY_pvI4', name: 'Listen To The River (Luka Bloom)' }
+    , { youtubeId: 'kC2Csyb6g-w', name: 'After Aughrim\'s Great Disaster (Tríona Ní Dhomhnaill)' }
+    , { youtubeId: 'FkN9D25_-xo', name: 'The Star Of The County Down/Sweeny\'s Buttermilk/Jenny\'s Chicken\'s (Kevin Burke)' }
+    , { youtubeId: '9qhQiRoY3pY', name: 'I\'ll Rock You To Rest (James Galway)' }
+    , { youtubeId: 'iWx5FsNYOjo', name: 'Johnny Seoighe (Maighread Ní Dhomhnaill)' }
+    , { youtubeId: 'zy2Hx7rhNkA', name: 'The Dove\'s Return (Áine Minogue)' }
+    ]
+  }
 ]
