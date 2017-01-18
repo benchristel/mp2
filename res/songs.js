@@ -252,6 +252,11 @@ const GROUPINGS =
     ]
 }
 , {
+    name: '(Full Album) Hazel Steps Through A Weathered Home - In Gowan Ring',
+    imageUrl: 'http://a3.mzstatic.com/us/r30/Music/v4/57/53/a7/5753a719-39de-d428-0830-0b8ad43b76d9/cover170x170.jpeg',
+    tracks: [{ youtubeId: 'B3oAx9VmAdA', name: 'Hazel Steps Through A Weathered Home' }]
+}
+, {
     name: '(Full Album) :Nighttime Nightrhymes: - Of The Wand And The Moon',
     imageUrl: 'https://i.ytimg.com/vi/Iaq76W_HpaI/hqdefault.jpg',
     tracks:
