@@ -46,6 +46,61 @@ const GROUPINGS =
     ]
   }
 , {
+    name: 'Thunder, Lightning, Strike - The Go! Team',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/0/05/Thunder%2C_Lightning%2C_Strike.jpg',
+    tracks:
+    [
+      { youtubeId: '5TJp3W30st8', name: 'Panther Dash' },
+      { youtubeId: 'zgQhzBor9tA', name: 'Ladyflash' },
+      { youtubeId: 'imUM_n3oRSU', name: 'Feelgood by Numbers' },
+      { youtubeId: 'isiBj3nqO8U', name: 'The Power Is On' },
+      { youtubeId: 'ht0yLJt7K4I', name: 'Get It Together' },
+      { youtubeId: 'lwsKSGebPdQ', name: 'We Just Won\'t Be Defeated' },
+      { youtubeId: 'PV6bfWPhC-g', name: 'Junior Kickstart' },
+      { youtubeId: 'dtk0dEwFPSg', name: 'Air Raid GTR' },
+      { youtubeId: 'q7k23nxn_lc', name: 'Bottle Rocket' },
+      { youtubeId: 'UMtdPrLLHeM', name: 'Friendship Update' },
+      { youtubeId: 'c9-daDlK0kc', name: 'Hold Yr Terror Close' },
+      { youtubeId: 'LSm6s--CYUQ', name: 'Huddle Formation' },
+      { youtubeId: '60gj0gk7WM8', name: 'Everyone\'s a V.I.P. to Someone' }
+    ]
+  }
+  , {
+      name: 'Proof of Youth - The Go! Team',
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/en/e/ef/Proofofyouth.jpg',
+      tracks:
+      [
+        { youtubeId: '-atILnMvFpI', name: 'Grip Like a Vice' },
+        { youtubeId: 'ME14PTNR0eM', name: 'Doing It Right' },
+        { youtubeId: '-o8FOGC_Puc', name: 'My World' },
+        { youtubeId: 'pxe7CQyIh54', name: 'Titanic Vandalism' },
+        { youtubeId: '1-oOd3cEpU4', name: 'Fake ID' },
+        { youtubeId: 'C9c7JVyx7_A', name: 'Universal Speech' },
+        { youtubeId: '1JEbvJ4VdyA', name: 'Keys to the City' },
+        { youtubeId: 'aWvgPzfReMY', name: 'The Wrath of Marcie' },
+        { youtubeId: 'Kv7OD_H4ibI', name: 'I Never Needed It Now So Much' },
+        { youtubeId: 'jaAKsLY-Sag', name: 'Flashlight Fight' },
+        { youtubeId: 'YHD29tzk69A', name: 'Patricia\'s Moving Picture' }
+      ]
+    }
+    , {
+        name: 'Rolling Blackouts - The Go! Team',
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/2/28/Rolling_Blackouts_cover.jpg',
+        tracks:
+        [
+          { youtubeId: 'kmwLMGbKZ0A', name: 'T.O.R.N.A.D.O.' },
+          { youtubeId: 'q41DBQ_psRk', name: 'Secretary Song' },
+          { youtubeId: 'R_VoUayg2gs', name: 'Ready to Go Steady' },
+          { youtubeId: 'CmoR4XLBX4M', name: 'Bust-Out Brigade' },
+          { youtubeId: 'fQ4f_lgdYz8', name: 'Buy Nothing Day' },
+          { youtubeId: 'YRAFM6LobQ8', name: 'Voice Yr Choice' },
+          { youtubeId: 'ulR4nJtWohQ', name: 'Yosemite Theme' },
+          { youtubeId: 'JAoMd5dgfyA', name: 'Lazy Poltergeist' },
+          { youtubeId: 'nuCHfwcdEvM', name: 'Rolling Blackouts' },
+          { youtubeId: 'dUmGVDicvOY', name: 'Back Like 8 Track' }
+        ]
+      }
+, {
     name: 'Once - Nightwish',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/2/22/OnceNightwishCover.jpg',
     tracks:
