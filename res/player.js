@@ -45,8 +45,23 @@
           notifyUpdateListeners()
         },
         'onStateChange': function(event) {
+          console.debug("Player state changed to " + event.data)
           if (playerState !== event.data) {
             playerState = event.data
+
+            if (playerState === YT.PlayerState.UNSTARTED) {
+              // If the song is still unstarted after 5 seconds,
+              // assume playback failed and notify the listeners
+              // to play the next song.
+              // Note that this relies on an assumption that
+              // songs last longer than 5 seconds.
+              setTimeout(function() {
+                if (playerState === YT.PlayerState.UNSTARTED) {
+                  notifyUpdateListeners()
+                }
+              }, 5000)
+            }
+
             if (playerState === YT.PlayerState.ENDED) {
               notifyUpdateListeners()
             }
