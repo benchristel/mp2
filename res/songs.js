@@ -310,7 +310,7 @@ const GROUPINGS =
     , { youtubeId: 'Hmo6MFon6K8', name: 'Summer Shudder' }
     , { youtubeId: 'bn57e-MT2z0', name: 'The Interview' }
     , { youtubeId: 'rsrEXwozK-Y', name: 'Love Like Winter' }
-    , { youtubeId: 'q-Zx-w8U3cw', name: 'Affliction' }
+    , { youtubeId: 'VZr_7mWruJY', name: 'Affliction' }
     , { youtubeId: 'SqQ08d78Hd8', name: 'The Missing Frame' }
     , { youtubeId: '_pO7OqyQp1c', name: 'Kiss And Control' }
     , { youtubeId: 'Iu6fo0ojwp0', name: 'The Killing Lights' }
