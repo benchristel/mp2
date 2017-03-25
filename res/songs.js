@@ -2,7 +2,7 @@
 const GROUPINGS =
 [ {
     name: 'Emotionally Ambiguous',
-    imageUrl: 'https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/4/3/1364983808637/aggression.PNG',
+    imageUrl: 'http://www.danielwillingham.com/uploads/5/0/0/7/5007325/8739681.gif',
     tracks:
     [ { youtubeId: 'brpl2ZlDlAc', name: 'Nightingale / December Song' }
     , { youtubeId: '1m9au8nNn1Q', name: 'Idiot Heart' }
