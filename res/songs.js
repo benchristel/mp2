@@ -1,6 +1,25 @@
 
 const GROUPINGS =
-[ {
+[
+  {
+    name: 'The Dungeon Master\'s Lair',
+    imageUrl: '/res/lair.jpg',
+    tracks:
+    [ { youtubeId: '492RxYXYw9o', name: 'The Dungeon Master\'s Lair' }
+    , { youtubeId: 'RgW1tvBHyMg', name: 'Lightness' }
+    , { youtubeId: '492RxYXYw9o', name: 'The Dungeon Master\'s Lair' }
+    , { youtubeId: '-dikWB6wm0A', name: 'New Space Music' }
+    ]
+  },
+  {
+    name: 'Andorra - Caribou',
+    imageUrl: 'https://i.ytimg.com/vi/LpZ-sX0wwCY/hqdefault.jpg',
+    tracks:
+    [ { youtubeId: 'LpZ-sX0wwCY', name: 'Melody Day' }
+    , { youtubeId: '3xbl9Yj3R1g', name: 'Sandy' }
+    ]
+  },
+  /*{
     name: 'Emotionally Ambiguous',
     imageUrl: 'http://www.danielwillingham.com/uploads/5/0/0/7/5007325/8739681.gif',
     tracks:
@@ -44,8 +63,8 @@ const GROUPINGS =
     , { youtubeId: 'hRKJTZ_M1Pg', name: 'Kickstarts (Example - Bar 9 Remix)' }
     , { youtubeId: 'zMR5K2QWfJk', name: 'Night (Benga & Coki)' }
     ]
-  }
-, {
+  },*/
+  {
     name: 'Thunder, Lightning, Strike - The Go! Team',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/0/05/Thunder%2C_Lightning%2C_Strike.jpg',
     tracks:
@@ -100,7 +119,7 @@ const GROUPINGS =
           { youtubeId: 'dUmGVDicvOY', name: 'Back Like 8 Track' }
         ]
       }
-, {
+/*, {
     name: 'Once - Nightwish',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/2/22/OnceNightwishCover.jpg',
     tracks:
@@ -136,7 +155,7 @@ const GROUPINGS =
     , { youtubeId: 'xFTSbZ3SeJE', name: 'FantasMic' }
     , { youtubeId: 'L9rGeglGm84', name: 'Sleepwalker' }
     ]
-  }
+  }*/
 , {
     name: 'Dragonslayer - Sunset Rubdown',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Sunset-rubdown-dragonslayer.jpg/220px-Sunset-rubdown-dragonslayer.jpg',
@@ -229,111 +248,111 @@ const GROUPINGS =
     , { youtubeId: 'rznHUwIuLCE', name: 'Credits Theme' }
     ]
   }
-, {
-    name: 'Happy Hardcore',
-    imageUrl: 'https://i.ytimg.com/vi/19O7tVu7NlA/hqdefault.jpg',
-    tracks:
-    [ { youtubeId: 'w4cu4Dwm03s', name: 'Music Is My First Love (Hixxy)' }
-    , { youtubeId: 'hUS1Ir0Vqqs', name: 'Here I Am (Ham, Demo, & Justin Time)' }
-    , { youtubeId: 'r2Xen3PQpzc', name: 'Eye Opener (Brisk and Trixxy)' }
-    , { youtubeId: '43eFS5b_Q_8', name: 'Believe (Frisky & Hujib)' }
-    , { youtubeId: 'psKTntyFFZs', name: 'It\'s You (Dave Castellanos)' }
-    , { youtubeId: 'BO1QM1b1IfI', name: 'Have You Ever Been Mellow (Tune Up)' }
-    , { youtubeId: 'gbPyQHx8HDc', name: 'Feel Fine (Tune Up)' }
-    , { youtubeId: 'elWepQarFQk', name: 'The One (Frisky & Hujib)' }
-    , { youtubeId: 'J6owIVkSEKo', name: 'Angel Eyes (Re-Con Remix)' }
-    , { youtubeId: '19O7tVu7NlA', name: 'My Direction (D-Code Ft. Emma) (Squad-E Remix)' }
-    , { youtubeId: 'yPvZdZ5QR8A', name: 'Braveheart (Hixxy)' }
-    , { youtubeId: 'wfwEZyceLMU', name: 'In Your Life (Brisk & Ham)' }
-    ]
-  }
-, {
-    name: 'Who Needs Guitars Anyway? - Alice Deejay',
-    imageUrl: 'https://i.ytimg.com/p/PL3num2og-PkiJ9DTm_t215URlwETEkIOZ/sddefault.jpg',
-    tracks:
-    [ { youtubeId: 'ldgwAAwj9zs', name: 'Back In My Life' }
-    , { youtubeId: 'd6GTKrW5_50', name: 'No More Lies' }
-    , { youtubeId: 'i1MvG3beRJ0', name: 'I Can See (See It In Your Eyes)' }
-    , { youtubeId: 'oxIUA5thkH8', name: 'Everything Begins With An E' }
-    , { youtubeId: 'gC9s37WOcYU', name: 'Got To Get Away' }
-    , { youtubeId: '5D8kbNFvqr0', name: 'Alice DJ' }
-    , { youtubeId: 'Lgs9QUtWc3M', name: 'Better Off Alone' }
-    , { youtubeId: 'zlJHFEQFA3M', name: 'Celebrate Our Love' }
-    , { youtubeId: 'YytZ5h9nOOo', name: 'The Lonely One' }
-    , { youtubeId: 'DsWwGUYeL4k', name: 'Who Needs Guitars Anyway?' }
-    , { youtubeId: 'g9Y6BM-agjA', name: 'Will I Ever' }
-    , { youtubeId: 'TXpKQjXGB3Y', name: 'Elements Of Life' }
-    , { youtubeId: 'IKWc6bKJWlE', name: 'Fairytales' }
-    , { youtubeId: 'eYEduFxInB4', name: 'Waiting For Your Love' }
-    ]
-  }
-, {
-    name: 'Scooter',
-    imageUrl: 'https://i.ytimg.com/vi/Qlb57uzn1zE/hqdefault.jpg',
-    tracks:
-    [ { youtubeId: 'Qlb57uzn1zE', name: 'How Much Is the Fish?' }
-    , { youtubeId: '4YxTa1AUqps', name: 'The Logical Song' }
-    , { youtubeId: '8i1FTCxf7Bk', name: 'Nessaja' }
-    ]
-  }
-, {
-    name: 'Dubstep',
-    imageUrl: 'https://i.ytimg.com/vi/hRKJTZ_M1Pg/hqdefault.jpg',
-    tracks:
-    [ { youtubeId: 'hRKJTZ_M1Pg', name: 'Kickstarts (Example - Bar 9 Remix)' }
-    , { youtubeId: 'K1VLaXoRRdk', name: 'Cracks (Freestylers ft. Belle Humble - Flux Pavilion Remix)' }
-    , { youtubeId: 'zMR5K2QWfJk', name: 'Night (Benga & Coki)' }
-    ]
-  }
-, {
-    name: 'Songs From The Labyrinth - Sting',
-    imageUrl: 'http://ecx.images-amazon.com/images/I/51FBXEYFD6L._SX300_.jpg',
-    tracks:
-    [ { youtubeId: '9RJ3WrLzvd4', name: 'Walsingham' }
-    , { youtubeId: 'GzOKz_3ukMI', name: 'Can She Excuse My Wrongs' }
-    , { youtubeId: 'JSKaedcAF8E', name: 'Flow My Tears' }
-    , { youtubeId: '6yZ6vcdg3PY', name: 'Have You Seen The Bright Lily Grow' }
-    , { youtubeId: 'K7QOBtdnaxU', name: 'The Most High And Mighty Christianus The Fourth, King of Denmark, His Galliard' }
-    , { youtubeId: 'u-XpVhP7UGU', name: 'The Lowest Trees Have Tops' }
-    , { youtubeId: 'gaCMKLZGvYs', name: 'Fine Knacks For Ladies' }
-    , { youtubeId: 'zpgbyLRLpa0', name: 'Fantasy' }
-    , { youtubeId: 'Q9rnLJUlmhk', name: 'Come Heavy Sleep' }
-    , { youtubeId: 'uG_AM6avyLM', name: 'Forlorn Hope Fancy' }
-    , { youtubeId: 'IX686DStiGo', name: 'Come Again' }
-    , { youtubeId: 'h_bPG6da1bg', name: 'Wilt Thou Unkind Thus Reave Me' }
-    , { youtubeId: 'OPflzZXbp90', name: 'Weep You No More Sad Fountains' }
-    , { youtubeId: 'KQ5DJ4BCiCg', name: 'My Lord Willoughby\'s Welcome Home' }
-    , { youtubeId: 'Ngb7p8qefFE', name: 'Clear Or Cloudy' }
-    , { youtubeId: 'yQnZbFdVGdw', name: 'In Darkness Let Me Dwell' }
-    ]
-}
-, {
-    name: '(Full Album) Hazel Steps Through A Weathered Home - In Gowan Ring',
-    imageUrl: 'http://a3.mzstatic.com/us/r30/Music/v4/57/53/a7/5753a719-39de-d428-0830-0b8ad43b76d9/cover170x170.jpeg',
-    tracks: [{ youtubeId: 'B3oAx9VmAdA', name: 'Hazel Steps Through A Weathered Home' }]
-}
-, {
-    name: '(Full Album) :Nighttime Nightrhymes: - Of The Wand And The Moon',
-    imageUrl: 'https://i.ytimg.com/vi/Iaq76W_HpaI/hqdefault.jpg',
-    tracks:
-    [ { youtubeId: 'Iaq76W_HpaI', name: ':Nighttime Nightrhymes: (Full Album)' } ]
-  }
-, {
-    name: 'Emptiness Emptiness Emptiness - Of The Wand And The Moon',
-    imageUrl: 'https://i.ytimg.com/vi/vo3abZ9jsn8/hqdefault.jpg',
-    tracks:
-    [ { youtubeId: 'KDVog7luAbY', name: 'Lost In Emptiness' }
-    , { youtubeId: 'VZw7apgBivQ', name: 'My Devotion Will Never Fade' }
-    , { youtubeId: 'KBe6eqiuS1c', name: 'In A Robe Of Fire' }
-    , { youtubeId: '_thiHQqrZls', name: 'Algir Naudir Wunjo' }
-    , { youtubeId: 'vo3abZ9jsn8', name: 'Silver Rain' }
-    , { youtubeId: 'mrLJHR5TXxM', name: 'Gal Anda' }
-    , { youtubeId: 'IumDFetwT3g', name: 'Here\'s To Misery (A Toast)' }
-    , { youtubeId: 'NM1Clbzs0e0', name: 'Can I Erase The Demon?' }
-    , { youtubeId: 'B5InWgyMStQ', name: 'Reciful' }
-    ]
-  }
-, {
+//, {
+//    name: 'Happy Hardcore',
+//    imageUrl: 'https://i.ytimg.com/vi/19O7tVu7NlA/hqdefault.jpg',
+//    tracks:
+//    [ { youtubeId: 'w4cu4Dwm03s', name: 'Music Is My First Love (Hixxy)' }
+//    , { youtubeId: 'hUS1Ir0Vqqs', name: 'Here I Am (Ham, Demo, & Justin Time)' }
+//    , { youtubeId: 'r2Xen3PQpzc', name: 'Eye Opener (Brisk and Trixxy)' }
+//    , { youtubeId: '43eFS5b_Q_8', name: 'Believe (Frisky & Hujib)' }
+//    , { youtubeId: 'psKTntyFFZs', name: 'It\'s You (Dave Castellanos)' }
+//    , { youtubeId: 'BO1QM1b1IfI', name: 'Have You Ever Been Mellow (Tune Up)' }
+//    , { youtubeId: 'gbPyQHx8HDc', name: 'Feel Fine (Tune Up)' }
+//    , { youtubeId: 'elWepQarFQk', name: 'The One (Frisky & Hujib)' }
+//    , { youtubeId: 'J6owIVkSEKo', name: 'Angel Eyes (Re-Con Remix)' }
+//    , { youtubeId: '19O7tVu7NlA', name: 'My Direction (D-Code Ft. Emma) (Squad-E Remix)' }
+//    , { youtubeId: 'yPvZdZ5QR8A', name: 'Braveheart (Hixxy)' }
+//    , { youtubeId: 'wfwEZyceLMU', name: 'In Your Life (Brisk & Ham)' }
+//    ]
+//  }
+//, {
+//    name: 'Who Needs Guitars Anyway? - Alice Deejay',
+//    imageUrl: 'https://i.ytimg.com/p/PL3num2og-PkiJ9DTm_t215URlwETEkIOZ/sddefault.jpg',
+//    tracks:
+//    [ { youtubeId: 'ldgwAAwj9zs', name: 'Back In My Life' }
+//    , { youtubeId: 'd6GTKrW5_50', name: 'No More Lies' }
+//    , { youtubeId: 'i1MvG3beRJ0', name: 'I Can See (See It In Your Eyes)' }
+//    , { youtubeId: 'oxIUA5thkH8', name: 'Everything Begins With An E' }
+//    , { youtubeId: 'gC9s37WOcYU', name: 'Got To Get Away' }
+//    , { youtubeId: '5D8kbNFvqr0', name: 'Alice DJ' }
+//    , { youtubeId: 'Lgs9QUtWc3M', name: 'Better Off Alone' }
+//    , { youtubeId: 'zlJHFEQFA3M', name: 'Celebrate Our Love' }
+//    , { youtubeId: 'YytZ5h9nOOo', name: 'The Lonely One' }
+//    , { youtubeId: 'DsWwGUYeL4k', name: 'Who Needs Guitars Anyway?' }
+//    , { youtubeId: 'g9Y6BM-agjA', name: 'Will I Ever' }
+//    , { youtubeId: 'TXpKQjXGB3Y', name: 'Elements Of Life' }
+//    , { youtubeId: 'IKWc6bKJWlE', name: 'Fairytales' }
+//    , { youtubeId: 'eYEduFxInB4', name: 'Waiting For Your Love' }
+//    ]
+//  }
+//, {
+//    name: 'Scooter',
+//    imageUrl: 'https://i.ytimg.com/vi/Qlb57uzn1zE/hqdefault.jpg',
+//    tracks:
+//    [ { youtubeId: 'Qlb57uzn1zE', name: 'How Much Is the Fish?' }
+//    , { youtubeId: '4YxTa1AUqps', name: 'The Logical Song' }
+//    , { youtubeId: '8i1FTCxf7Bk', name: 'Nessaja' }
+//    ]
+//  }
+//, {
+//    name: 'Dubstep',
+//    imageUrl: 'https://i.ytimg.com/vi/hRKJTZ_M1Pg/hqdefault.jpg',
+//    tracks:
+//    [ { youtubeId: 'hRKJTZ_M1Pg', name: 'Kickstarts (Example - Bar 9 Remix)' }
+//    , { youtubeId: 'K1VLaXoRRdk', name: 'Cracks (Freestylers ft. Belle Humble - Flux Pavilion Remix)' }
+//    , { youtubeId: 'zMR5K2QWfJk', name: 'Night (Benga & Coki)' }
+//    ]
+//  }
+//, {
+//    name: 'Songs From The Labyrinth - Sting',
+//    imageUrl: 'http://ecx.images-amazon.com/images/I/51FBXEYFD6L._SX300_.jpg',
+//    tracks:
+//    [ { youtubeId: '9RJ3WrLzvd4', name: 'Walsingham' }
+//    , { youtubeId: 'GzOKz_3ukMI', name: 'Can She Excuse My Wrongs' }
+//    , { youtubeId: 'JSKaedcAF8E', name: 'Flow My Tears' }
+//    , { youtubeId: '6yZ6vcdg3PY', name: 'Have You Seen The Bright Lily Grow' }
+//    , { youtubeId: 'K7QOBtdnaxU', name: 'The Most High And Mighty Christianus The Fourth, King of Denmark, His Galliard' }
+//    , { youtubeId: 'u-XpVhP7UGU', name: 'The Lowest Trees Have Tops' }
+//    , { youtubeId: 'gaCMKLZGvYs', name: 'Fine Knacks For Ladies' }
+//    , { youtubeId: 'zpgbyLRLpa0', name: 'Fantasy' }
+//    , { youtubeId: 'Q9rnLJUlmhk', name: 'Come Heavy Sleep' }
+//    , { youtubeId: 'uG_AM6avyLM', name: 'Forlorn Hope Fancy' }
+//    , { youtubeId: 'IX686DStiGo', name: 'Come Again' }
+//    , { youtubeId: 'h_bPG6da1bg', name: 'Wilt Thou Unkind Thus Reave Me' }
+//    , { youtubeId: 'OPflzZXbp90', name: 'Weep You No More Sad Fountains' }
+//    , { youtubeId: 'KQ5DJ4BCiCg', name: 'My Lord Willoughby\'s Welcome Home' }
+//    , { youtubeId: 'Ngb7p8qefFE', name: 'Clear Or Cloudy' }
+//    , { youtubeId: 'yQnZbFdVGdw', name: 'In Darkness Let Me Dwell' }
+//    ]
+//}
+//, {
+//    name: '(Full Album) Hazel Steps Through A Weathered Home - In Gowan Ring',
+//    imageUrl: 'http://a3.mzstatic.com/us/r30/Music/v4/57/53/a7/5753a719-39de-d428-0830-0b8ad43b76d9/cover170x170.jpeg',
+//    tracks: [{ youtubeId: 'B3oAx9VmAdA', name: 'Hazel Steps Through A Weathered Home' }]
+//}
+//, {
+//    name: '(Full Album) :Nighttime Nightrhymes: - Of The Wand And The Moon',
+//    imageUrl: 'https://i.ytimg.com/vi/Iaq76W_HpaI/hqdefault.jpg',
+//    tracks:
+//    [ { youtubeId: 'Iaq76W_HpaI', name: ':Nighttime Nightrhymes: (Full Album)' } ]
+//  }
+//, {
+//    name: 'Emptiness Emptiness Emptiness - Of The Wand And The Moon',
+//    imageUrl: 'https://i.ytimg.com/vi/vo3abZ9jsn8/hqdefault.jpg',
+//    tracks:
+//    [ { youtubeId: 'KDVog7luAbY', name: 'Lost In Emptiness' }
+//    , { youtubeId: 'VZw7apgBivQ', name: 'My Devotion Will Never Fade' }
+//    , { youtubeId: 'KBe6eqiuS1c', name: 'In A Robe Of Fire' }
+//    , { youtubeId: '_thiHQqrZls', name: 'Algir Naudir Wunjo' }
+//    , { youtubeId: 'vo3abZ9jsn8', name: 'Silver Rain' }
+//    , { youtubeId: 'mrLJHR5TXxM', name: 'Gal Anda' }
+//    , { youtubeId: 'IumDFetwT3g', name: 'Here\'s To Misery (A Toast)' }
+//    , { youtubeId: 'NM1Clbzs0e0', name: 'Can I Erase The Demon?' }
+//    , { youtubeId: 'B5InWgyMStQ', name: 'Reciful' }
+//    ]
+//  }
+/*, {
   name: '(Full Album) Forgotten Woods in Autumn\'s Silence - Raflum',
   imageUrl: 'https://f4.bcbits.com/img/a1184544366_10.jpg',
   tracks: [ { youtubeId: 'VdFo_yRKr9Y', name: 'Forgotten Woods in Autumn\'s Silence' } ]
@@ -354,46 +373,46 @@ const GROUPINGS =
     , { youtubeId: 'aeRsLPQannM', name: 'We\'re No Here' }
     , { youtubeId: 'CNlpD5uvsoA', name: '1% Of Monster' }
     ]
-  }
-, {
-    name: 'Decemberunderground - AFI',
-    imageUrl: 'https://i.ytimg.com/p/PLDJpDK05PqjI8-F6jwqAt75iyByVo0leZ/sddefault.jpg',
-    tracks:
-    [ { youtubeId: '2geNugMv3Cc', name: 'Prelude 12/21' }
-    , { youtubeId: '7Kz9xXyDPzM', name: 'Kill Caustic' }
-    , { youtubeId: 'YU4hhNKsPog', name: 'Miss Murder' }
-    , { youtubeId: 'Hmo6MFon6K8', name: 'Summer Shudder' }
-    , { youtubeId: 'bn57e-MT2z0', name: 'The Interview' }
-    , { youtubeId: 'rsrEXwozK-Y', name: 'Love Like Winter' }
-    , { youtubeId: 'VZr_7mWruJY', name: 'Affliction' }
-    , { youtubeId: 'SqQ08d78Hd8', name: 'The Missing Frame' }
-    , { youtubeId: '_pO7OqyQp1c', name: 'Kiss And Control' }
-    , { youtubeId: 'Iu6fo0ojwp0', name: 'The Killing Lights' }
-    , { youtubeId: 'XCK-St51AzA', name: 'Endlessly, She Said' }
-    ]
-  }
-, {
-    name: 'Clandestino - Manu Chao',
-    imageUrl: 'http://ecx.images-amazon.com/images/I/51PHN96NDCL.jpg',
-    tracks:
-    [ { youtubeId: 'Qew9cYR3t0g', name: 'Desaparecido' }
-    , { youtubeId: 'a_UqAMQT_LE', name: 'Bongo Bong' }
-    , { youtubeId: 'Qn6IBCYVQAY', name: 'Je Ne T\'aime Plus' }
-    , { youtubeId: 'PCZuYK3Rjig', name: 'Mentira' }
-    , { youtubeId: 'ydtfbuxd7Mw', name: 'Lágrimas De Oro' }
-    , { youtubeId: 'fQrPY5aJIXI', name: 'Mama Call' }
-    , { youtubeId: 'r6bxSrcnQlY', name: 'Luna Y Sol' }
-    , { youtubeId: 'ulwj8VHnR6s', name: 'Por El Suelo' }
-    , { youtubeId: 'JVmjLGxFJAw', name: 'Welcome To Tijuana' }
-    , { youtubeId: 'a5XiqblCtJg', name: 'Día Luna...Día Pena' }
-    , { youtubeId: 'E-nSiMSEIyk', name: 'Malegría' }
-    , { youtubeId: 'wGDASSLuAUc', name: 'La Vie A 2' }
-    , { youtubeId: 'Xfc7sBSn2Z0', name: 'Minha Galera' }
-    , { youtubeId: 'qFaEJPAAQuI', name: 'La Despedida' }
-    , { youtubeId: 'tQ2nl0_boh4', name: 'El Viento' }
-    ]
-  }
-, {
+  }*/
+//, {
+//    name: 'Decemberunderground - AFI',
+//    imageUrl: 'https://i.ytimg.com/p/PLDJpDK05PqjI8-F6jwqAt75iyByVo0leZ/sddefault.jpg',
+//    tracks:
+//    [ { youtubeId: '2geNugMv3Cc', name: 'Prelude 12/21' }
+//    , { youtubeId: '7Kz9xXyDPzM', name: 'Kill Caustic' }
+//    , { youtubeId: 'YU4hhNKsPog', name: 'Miss Murder' }
+//    , { youtubeId: 'Hmo6MFon6K8', name: 'Summer Shudder' }
+//    , { youtubeId: 'bn57e-MT2z0', name: 'The Interview' }
+//    , { youtubeId: 'rsrEXwozK-Y', name: 'Love Like Winter' }
+//    , { youtubeId: 'VZr_7mWruJY', name: 'Affliction' }
+//    , { youtubeId: 'SqQ08d78Hd8', name: 'The Missing Frame' }
+//    , { youtubeId: '_pO7OqyQp1c', name: 'Kiss And Control' }
+//    , { youtubeId: 'Iu6fo0ojwp0', name: 'The Killing Lights' }
+//    , { youtubeId: 'XCK-St51AzA', name: 'Endlessly, She Said' }
+//    ]
+//  }
+//, {
+//    name: 'Clandestino - Manu Chao',
+//    imageUrl: 'http://ecx.images-amazon.com/images/I/51PHN96NDCL.jpg',
+//    tracks:
+//    [ { youtubeId: 'Qew9cYR3t0g', name: 'Desaparecido' }
+//    , { youtubeId: 'a_UqAMQT_LE', name: 'Bongo Bong' }
+//    , { youtubeId: 'Qn6IBCYVQAY', name: 'Je Ne T\'aime Plus' }
+//    , { youtubeId: 'PCZuYK3Rjig', name: 'Mentira' }
+//    , { youtubeId: 'ydtfbuxd7Mw', name: 'Lágrimas De Oro' }
+//    , { youtubeId: 'fQrPY5aJIXI', name: 'Mama Call' }
+//    , { youtubeId: 'r6bxSrcnQlY', name: 'Luna Y Sol' }
+//    , { youtubeId: 'ulwj8VHnR6s', name: 'Por El Suelo' }
+//    , { youtubeId: 'JVmjLGxFJAw', name: 'Welcome To Tijuana' }
+//    , { youtubeId: 'a5XiqblCtJg', name: 'Día Luna...Día Pena' }
+//    , { youtubeId: 'E-nSiMSEIyk', name: 'Malegría' }
+//    , { youtubeId: 'wGDASSLuAUc', name: 'La Vie A 2' }
+//    , { youtubeId: 'Xfc7sBSn2Z0', name: 'Minha Galera' }
+//    , { youtubeId: 'qFaEJPAAQuI', name: 'La Despedida' }
+//    , { youtubeId: 'tQ2nl0_boh4', name: 'El Viento' }
+//    ]
+//  }
+/*, {
     name: 'Huun Huur Tu Live at Fantasy Studios',
     imageUrl: 'https://i.ytimg.com/vi/-bDntRWfL70/mqdefault.jpg',
     tracks: [ { youtubeId: 'i0djHJBAP3U', name: 'Huun Huur Tu Live at Fantasy Studios' } ]
@@ -406,7 +425,7 @@ const GROUPINGS =
     , { youtubeId: 'apE1n63ZhMQ', name: 'Repülj Madár, Repülj (Márta Sebestyén)' }
     , { youtubeId: 'YHOFAtsXyUE', name: 'Azt gondoltam eső esik (Márta Sebestyén)' }
     ]
-}
+}*/
 // , {
 //     name: 'Muszikás - Ősz Az Idő',
 //     imageUrl: 'https://i.ytimg.com/vi/sbwnQMU9CX8/hqdefault.jpg',
@@ -438,24 +457,24 @@ const GROUPINGS =
 //     , { youtubeId: 'QZrjQFXhkWU', name: 'Elment A Madarka' }
 //     ]
 //   }
-, {
-    name: 'Animal Collective - Merriweather Post Pavilion',
-    imageUrl: 'https://i.ytimg.com/vi/L99wAbddt4Y/hqdefault.jpg',
-    tracks:
-    [ { youtubeId: 'L99wAbddt4Y', name: 'In the Flowers' }
-    , { youtubeId: 'DRFlyfcbcFM', name: 'My Girls' }
-    , { youtubeId: 'mnhZM1acxW4', name: 'Also Frightened' }
-    , { youtubeId: 'oGaLBuLoMfw', name: 'Summertime Clothes' }
-    , { youtubeId: '47BvgpRTKno', name: 'Daily Routine' }
-    , { youtubeId: 'NZlXwPb_JPM', name: 'Bluish' }
-    , { youtubeId: 'XhtIIyvivSw', name: 'Guys Eyes' }
-    , { youtubeId: 'nlJDoMplnYU', name: 'Taste' }
-    , { youtubeId: 'i_42Sighttk', name: 'Lion in a Coma' }
-    , { youtubeId: '9AYoeRklU5s', name: 'No More Runnin' }
-    , { youtubeId: '3S1Zgwj-sOI', name: 'Brother Sport' }
-    ]
-  }
-, {
+//, {
+//    name: 'Animal Collective - Merriweather Post Pavilion',
+//    imageUrl: 'https://i.ytimg.com/vi/L99wAbddt4Y/hqdefault.jpg',
+//    tracks:
+//    [ { youtubeId: 'L99wAbddt4Y', name: 'In the Flowers' }
+//    , { youtubeId: 'DRFlyfcbcFM', name: 'My Girls' }
+//    , { youtubeId: 'mnhZM1acxW4', name: 'Also Frightened' }
+//    , { youtubeId: 'oGaLBuLoMfw', name: 'Summertime Clothes' }
+//    , { youtubeId: '47BvgpRTKno', name: 'Daily Routine' }
+//    , { youtubeId: 'NZlXwPb_JPM', name: 'Bluish' }
+//    , { youtubeId: 'XhtIIyvivSw', name: 'Guys Eyes' }
+//    , { youtubeId: 'nlJDoMplnYU', name: 'Taste' }
+//    , { youtubeId: 'i_42Sighttk', name: 'Lion in a Coma' }
+//    , { youtubeId: '9AYoeRklU5s', name: 'No More Runnin' }
+//    , { youtubeId: '3S1Zgwj-sOI', name: 'Brother Sport' }
+//    ]
+//  }
+/*, {
     name: 'Broken Social Scene - You Forgot It In People',
     imageUrl: 'https://img.discogs.com/wNK9ITt-yeH5DZ64Rjj_lzcnCuA=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb()/discogs-images/R-470665-1342922707-7683.jpeg.jpg',
     tracks: [ { youtubeId: 'GZh9D2nTB24', name: 'You Forgot It In People (Full Album)' } ]
@@ -499,5 +518,5 @@ const GROUPINGS =
     , { youtubeId: 'iWx5FsNYOjo', name: 'Johnny Seoighe (Maighread Ní Dhomhnaill)' }
     , { youtubeId: 'zy2Hx7rhNkA', name: 'The Dove\'s Return (Áine Minogue)' }
     ]
-  }
+  }*/
 ]
