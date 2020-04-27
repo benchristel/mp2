@@ -9,6 +9,8 @@ const GROUPINGS =
     , { youtubeId: 'RgW1tvBHyMg', name: 'Lightness' }
     , { youtubeId: '492RxYXYw9o', name: 'The Dungeon Master\'s Lair' }
     , { youtubeId: '-dikWB6wm0A', name: 'New Space Music' }
+    , { youtubeId: '492RxYXYw9o', name: 'The Dungeon Master\'s Lair' }
+    , { youtubeId: 'qkCv9vpc-6M', name: 'The Shutov Assembly' }
     ]
   },
   {
