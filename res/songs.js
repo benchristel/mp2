@@ -13,6 +13,7 @@ const GROUPINGS =
     , { youtubeId: '492RxYXYw9o', name: 'The Dungeon Master\'s Lair' }
     , { youtubeId: '4_Ag3q5N1s8', name: 'Textures' }
     //, { youtubeId: 'qkCv9vpc-6M', name: 'The Shutov Assembly' }
+    , { youtubeId: '2loLZLq0L_4', name: 'Tien Fu (Heaven\'s Gate)' }
     , { youtubeId: '_u7651wNMHY', name: 'Agua' }
     ]
   },
